@@ -1,0 +1,40 @@
+.list {
+    display: flex;
+    gap: 20px;
+    width: 500px;
+    margin: 0 auto 20px;
+
+
+}
+
+.item {
+    border: 2px solid black;
+    width: calc((100% - 4 * 20px) / 5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.image {
+    margin-bottom: 10px;
+
+}
+
+.name {
+    font-style: 36px;
+    font-weight: 600;
+
+}
+
+.online {
+    color: green;
+
+}
+
+.offline {
+    color: red;
+}

@@ -1,0 +1,26 @@
+.table {
+    width: 1000px;
+    font-size: 34px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    
+}
+
+.head th {
+    border: 2px solid black;
+    color: white;
+    background-color: darkslategrey;
+}
+
+.strings td {
+    border: 2px solid black;
+    text-align: center;
+}
+
+.strings td:first-child {
+    text-transform: capitalize;
+}
+
+.strings:nth-child(2nd) {
+    background-color: rgb(211, 220, 229);
+}
